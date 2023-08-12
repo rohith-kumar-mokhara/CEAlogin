@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: no-repeat fixed;
+    z-index: 5;
+}
+.container{
+    background-image: url(LtC4g9.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.CEA{
+    margin: 0px auto;
+}
+.box{
+    height: 63vh;
+    width: 30vw;
+    margin-right: 50px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(43, 194, 217),rgb(211, 66, 211));
+}
+.box h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.box1{
+    height: 5vh;
+    margin: 50px 0px 35px 0px;
+}
+.box1 i{
+    margin: 6px;
+    font-size: 18px;
+}
+.box1 #Email{
+    margin: 0px;
+    padding: 10px;
+    width: 23vw;
+    font-size: 18px;
+    border-radius: 30px ;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to right, rgb(157, 222, 212),rgb(72, 226, 226));
+    border: none;
+    outline: none;
+    transition: width 0.1s ease-in ,margin 0.1s ease-in, background 0.1s ease-in;
+}
+.box1 #Email:hover{
+    width: 24vw;
+    margin: 0px 5px;
+    background: linear-gradient(to right, rgb(137, 166, 230),rgb(41, 73, 155));
+}
+.box2 i{
+    font-size: 18px;
+    margin: 6px;
+}
+.box2 #Pass{
+    padding: 10px;
+    width: 23vw;
+    font-size: 18px;
+    border-radius: 30px ;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to right, rgb(179, 235, 226),rgb(72, 226, 226));
+    border: none;
+    outline: none;
+    transition: width 0.1s ease-in ,margin 0.1s ease-in, background 0.1s ease-in;
+}
+.box2 #Pass:hover{
+    width: 24vw;
+    margin: 0px 5px;
+    background: linear-gradient(to right, rgb(128, 159, 227),rgb(41, 73, 155));
+}
+.box2{
+    height: 5vh;
+    margin: 10px 0px;
+}
+.forgot a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5vh;
+    position: absolute;
+    top: 37vh;
+    left: 20vw;
+    text-decoration: none;
+}
+.register{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5vh;
+    position: absolute;
+    left: 6vw;
+    top: 55vh;
+}
+.register a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+.button .login{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vh;
+    padding: 1vh 20vh;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(169, 216, 51), rgb(22, 219, 193));
+    border: none;
+    outline: none;
+    transition: padding 0.1s ease-in-out;
+}
+.button .login:hover{
+background: linear-gradient(to right, rgb(109, 172, 211), rgb(26, 76, 181));
+box-shadow: 0px 0px 5px cyan,0px 0px 20px cyan;
+padding: 1.1vh 20.1vh;
+border: none;
+outline: none;
+}
